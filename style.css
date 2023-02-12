@@ -8,7 +8,7 @@ body{
    .orange-color{
     color: orange;
    }
-   section{
+   .felxible-continer{
     display: flex;
     margin-bottom: 150px;
    }
@@ -27,6 +27,9 @@ body{
    font-weight: 700;
     border-radius: 5px;
    }
+   h2{
+       font-size: 20px;
+   }
    .top-banner{
     background-image: url(developer-portfolio/top-banner.png);
     background-repeat: no-repeat;
@@ -36,3 +39,28 @@ body{
     background-repeat: no-repeat;
     background-position: right;
    }
+   .Experiences-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+   }
+  .Experiences-area{
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+  }
+  #full-stack-developer{
+    border-left: 7px solid tomato;
+  }
+  #baby-developer{
+    border-left: 7px solid blue;
+  }
+  footer p{
+    text-align: center;
+  }
+  
